@@ -6,12 +6,13 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    companyInfo: [],
-    cities: []
+    companyInfo: []
   },
+
   mutations: {
     getCompanyInfo: (state, companyInfo) => (state.companyInfo = companyInfo)
   },
+
   actions: {
     async fetchCompanyInfo({ commit }) {
       const res = await axios.get(
@@ -22,7 +23,6 @@ export default new Vuex.Store({
   },
   getters: {
     allCities(state) {
-      // return state.cities;
       return state.companyInfo;
     }
   }

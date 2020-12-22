@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar app color="primary" dark>
       <v-btn href="https://github.com/Timur000101" target="_blank" text>
-        <span class="mr-2">Test</span>
+        <span class="mr-2">My Github</span>
         <v-icon>mdi-open-in-new</v-icon>
       </v-btn>
     </v-app-bar>
