@@ -1,5 +1,6 @@
 {
   "name": "marketradar",
+  "description": "Company test task(Vue)",
   "version": "0.1.0",
   "private": true,
   "scripts": {
